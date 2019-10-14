@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="butterfly_space_height">140dp</dimen>
+    <dimen name="butterfly_button_height">30dp</dimen>
+    <dimen name="butterfly_space_between_button">5dp</dimen>
+
+</resources>

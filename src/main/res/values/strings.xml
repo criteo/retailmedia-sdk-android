@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">StoretailSDK</string>
+
+
+    <!--Server url-->
+    <string name="sto_server_url">https://tk.storetail.io/x?</string>
+
+    <!--String used in StoResponseParser-->
+    <string name="sto_response_parser_template">template</string>
+    <string name="sto_response_parser_values">values</string>
+    <string name="sto_response_parser_buttons">buttons</string>
+    <string name="sto_response_parser_products">products</string>
+    <string name="sto_response_parser_creatives">creatives</string>
+    <string name="sto_response_parser_placements">placements</string>
+    <string name="sto_response_parser_unexposed">unexposed</string>
+    <string name="sto_response_parser_ba">BA</string>
+    <string name="sto_response_parser_vi">VI</string>
+    <string name="sto_response_parser_bf">BF</string>
+
+    <string name="sto_response_parser_mbc_tpl">mbc_redirection</string>
+    <string name="sto_response_parser_mbc_tpl_leclerc">mbc_redirection_leclerc</string>
+    <string name="sto_response_parser_mbc_tpl_native_leclerc">mbc_redirection_native_leclerc</string>
+
+
+    <!--String names for Query String Params-->
+    <string name="sto_qsp_techbrowserv">techBrowserV</string>
+    <string name="sto_qsp_available_products">ap</string>
+    <string name="sto_qsp_client_id">ci</string>
+    <string name="sto_qsp_optin_optout">in</string>
+    <string name="sto_qsp_forced_city">fc</string>
+    <string name="sto_qsp_forced_latitude">lt</string>
+    <string name="sto_qsp_forced_longitude">lg</string>
+    <string name="sto_qsp_page_type">pt</string>
+    <string name="sto_qsp_retail_name">rn</string>
+    <string name="sto_qsp_retail_page">rp</string>
+    <string name="sto_qsp_retail_placements">re</string>
+    <string name="sto_qsp_retail_search">rk</string>
+    <string name="sto_qsp_retail_shop">rs</string>
+    <string name="sto_qsp_session_pages">up</string>
+    <string name="sto_qsp_session_time">ut</string>
+    <string name="sto_qsp_position_object">po</string>
+    <string name="sto_qsp_tech_screen">ts</string>
+    <string name="sto_qsp_tech_window">tw</string>
+    <string name="sto_qsp_track_action">ta</string>
+    <string name="sto_qsp_track_brand">tb</string>
+    <string name="sto_qsp_track_creative">tc</string>
+    <string name="sto_qsp_track_event">te</string>
+    <string name="sto_qsp_track_from">tf</string>
+    <string name="sto_qsp_track_track_goal">tg</string>
+    <string name="sto_qsp_track_insertion">ti</string>
+    <string name="sto_qsp_track_label">tl</string>
+    <string name="sto_qsp_product_id">pi</string>
+    <string name="sto_qsp_track_operation">to</string>
+    <string name="sto_qsp_track_step">tp</string>
+    <string name="sto_qsp_track_time">tt</string>
+    <string name="sto_qsp_track_value">tn</string>
+    <string name="sto_qsp_track_visibility">tv</string>
+    <string name="sto_qsp_track_zone">tz</string>
+    <string name="sto_qsp_product_label">pl</string>
+    <string name="sto_qsp_user_cookies">uc</string>
+    <string name="sto_qsp_verif_uid">vf</string>
+
+
+    <!-- Strings related to image views descriptions -->
+
+    <string name="sto_mbf_butterfly_view_background_iv">bg_iv</string>
+    <string name="sto_mbf_butterfly_view_logo_iv">logo_iv</string>
+    <string name="sto_mbf_butterfly_view_4_iv">logo_iv</string>
+
+
+</resources>

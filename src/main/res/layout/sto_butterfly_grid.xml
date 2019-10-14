@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sto_butterfly_parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/sto_butterfly_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.criteo.storetailsdk.view.views.ImageScaleView
+            android:id="@+id/sto_butterfly_bg_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="matrix" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:baselineAligned="false">
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/butterfly_space_height" />
+
+            <RelativeLayout
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+                <LinearLayout
+                    android:id="@+id/sto_butterfly_option"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="@dimen/butterfly_space_between_button"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    >
+                    <TextView
+                        android:id="@+id/sto_butterfly_option_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textSize="12sp"/>
+                    <com.criteo.storetailsdk.view.autofittext.StoAutoFitButton
+                        android:id="@+id/sto_butterfly_option_button"
+                        android:layout_width="150dp"
+                        android:layout_height="30dp"
+                        android:padding="0dp"
+                        android:gravity="center"
+                        android:maxLines="2"
+                        android:textSize="14sp"
+                        app:minTextSize="14sp"
+                        android:textAllCaps="false"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_above="@id/sto_butterfly_option"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <com.criteo.storetailsdk.view.views.StoProductButton
+                        android:id="@+id/sto_butterfly_btn1"
+                        android:layout_width="150dp"
+                        android:layout_height="@dimen/butterfly_button_height"
+                        android:layout_marginBottom="@dimen/butterfly_space_between_button"
+                        android:padding="0dp"
+                        android:gravity="center"
+                        android:maxLines="2"
+                        android:ellipsize="end"
+                        android:textSize="14sp"
+                        app:minTextSize="14sp"
+                        android:textAllCaps="false"/>
+
+                    <com.criteo.storetailsdk.view.views.StoProductButton
+                        android:id="@+id/sto_butterfly_btn2"
+                        android:layout_width="150dp"
+                        android:layout_height="@dimen/butterfly_button_height"
+                        android:layout_marginBottom="@dimen/butterfly_space_between_button"
+                        android:padding="0dp"
+                        android:gravity="center"
+                        android:maxLines="2"
+                        android:ellipsize="end"
+                        android:textSize="14sp"
+                        app:minTextSize="14sp"
+                        android:textAllCaps="false"/>
+
+                    <com.criteo.storetailsdk.view.views.StoProductButton
+                        android:id="@+id/sto_butterfly_btn3"
+                        android:layout_width="150dp"
+                        android:layout_height="@dimen/butterfly_button_height"
+                        android:layout_marginBottom="@dimen/butterfly_space_between_button"
+                        android:padding="0dp"
+                        android:gravity="center"
+                        android:maxLines="2"
+                        android:ellipsize="end"
+                        android:textSize="14sp"
+                        app:minTextSize="14sp"
+                        android:textAllCaps="false"/>
+
+                    <com.criteo.storetailsdk.view.views.StoProductButton
+                        android:id="@+id/sto_butterfly_btn4"
+                        android:layout_width="150dp"
+                        android:layout_height="@dimen/butterfly_button_height"
+                        android:layout_marginBottom="@dimen/butterfly_space_between_button"
+                        android:padding="0dp"
+                        android:gravity="center"
+                        android:maxLines="2"
+                        android:ellipsize="end"
+                        android:textSize="14sp"
+                        app:minTextSize="14sp"
+                        android:textAllCaps="false"/>
+
+                    <com.criteo.storetailsdk.view.views.StoProductButton
+                        android:id="@+id/sto_butterfly_btn5"
+                        android:layout_width="150dp"
+                        android:layout_height="@dimen/butterfly_button_height"
+                        android:layout_marginBottom="@dimen/butterfly_space_between_button"
+                        android:padding="0dp"
+                        android:gravity="center"
+                        android:maxLines="2"
+                        android:ellipsize="end"
+                        android:textSize="14sp"
+                        app:minTextSize="14sp"
+                        android:textAllCaps="false"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

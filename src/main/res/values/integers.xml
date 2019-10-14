@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Integers related to MHC formats-->
+    <integer name="sto_pos_mhc1">4</integer>
+    <integer name="sto_pos_mhc2">7</integer>
+
+
+    <!--Integers related to MBFButterflies and MBFBanner on products list page-->
+
+
+    <!--Integers related to MBF on search pages-->
+
+
+    <!--Integers related to StoViewManagers-->
+    <integer name="sto_default_max_type">5000</integer>
+    <integer name="sto_default_nb_types">10000</integer>
+</resources>
